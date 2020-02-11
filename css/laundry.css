@@ -63,7 +63,7 @@ header .logo img {
     margin: auto;
     left: 1%;
     right: 1%;
-    position: absolute;
+    position: fixed;
 }
 
 #content .ready {
