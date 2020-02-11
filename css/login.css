@@ -36,6 +36,7 @@ font-style: normal;*/
     left: 1%;
     right: 1%;
     position: absolute;
+    z-index: 2;
 }
 
 #content .trailer h1 {
@@ -91,6 +92,7 @@ footer h1 {
  	 color: #ffffff;
 }
 
-footer .logo img {
+footer img {
 	height: 2rem;
+	z-index: 1;
 }
