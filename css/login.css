@@ -35,7 +35,7 @@ font-style: normal;*/
     margin: auto;
     left: 1%;
     right: 1%;
-    position: absolute;
+    position: fixed;
     z-index: 2;
 }
 
