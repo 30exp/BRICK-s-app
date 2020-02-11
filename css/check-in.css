@@ -1,0 +1,130 @@
+/*pt heavy*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;*/
+
+/*pt demi*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: normal;*/
+
+/*pt demi oblique*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: italic;*/
+
+/*pt book*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;*/
+
+/*pt light*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 300;
+font-style: normal;*/
+
+
+/*header*/
+
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: futura-pt,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+header .logo img {
+  height: 3rem;
+}
+
+/*main*/
+
+#content {
+      background: url(../svg/fingerprint-white.svg) no-repeat 100%;
+      background-size: 5rem;
+      background-attachment: scroll;
+      background-position: center;
+
+    text-align: center;
+    max-width: 225px;
+    max-height: 225px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+}
+
+#content .red-pulse {
+  display: block;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  line-height: 200px;
+  text-align: center;
+  z-index: 2;
+}
+
+#content .red-pulse:hover {
+  cursor: pointer;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  border: 3px solid #32CD32;
+}
+
+#content .red-pulse:active {
+    background-color: #32CD32;
+    color: #32CD32;
+  border: 3px solid #32CD32;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+  }
+}
+
+.roomkey a {
+    color: #ff0000;
+}
+
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+footer img {
+  height: 2rem;
+}

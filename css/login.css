@@ -1,0 +1,96 @@
+/*pt heavy*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;*/
+
+/*pt demi*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: normal;*/
+
+/*pt demi oblique*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: italic;*/
+
+/*pt book*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;*/
+
+/*pt light*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 300;
+font-style: normal;*/
+
+#content {
+    text-align: center;
+    max-width: 225px;
+    max-height: 225px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+}
+
+#content .trailer h1 {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: futura-pt,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#content .trailer img {
+		border-bottom-left-radius: 8%;
+	border-bottom-right-radius: 8%;
+	border-top-left-radius: 8%;
+	border-top-right-radius: 8%;
+}
+
+#content .trailer .button {
+	width: 100%;
+	background-color: #ff0000;
+	color: #ffffff;
+	border: 3px solid #ffffff;
+	border-bottom-left-radius: 100rem;
+	border-bottom-right-radius: 100rem;
+	border-top-left-radius: 100rem;
+	border-top-right-radius: 100rem;
+}
+
+#content .trailer table {
+	margin-top: 18px;
+}
+
+.orbit-previous {
+	color: #ff0000;
+}
+
+.orbit-next {
+	color: #ff0000;
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+  	bottom: 0;
+  	left: 0;
+  	z-index: 1;
+  	width: 100%;
+  	padding-bottom: 1rem;
+}
+
+footer h1 {
+  	font-size: 1.5rem;
+ 	 color: #ffffff;
+}
+
+footer .logo img {
+	height: 2rem;
+}

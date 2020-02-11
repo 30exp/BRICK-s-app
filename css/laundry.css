@@ -1,0 +1,121 @@
+/*pt heavy*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;*/
+
+/*pt demi*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: normal;*/
+
+/*pt demi oblique*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 600;
+font-style: italic;*/
+
+/*pt book*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;*/
+
+/*pt light*/
+
+/*font-family: futura-pt,sans-serif;
+font-weight: 300;
+font-style: normal;*/
+
+
+/*header*/
+
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: futura-pt,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+header .logo img {
+  height: 3rem;
+}
+
+/*main*/
+
+#content {
+    text-align: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+    position: absolute;
+}
+
+#content .ready {
+    display: block;
+    text-align: center;
+}
+
+#content .ready h1 {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+#content .ready h2 {
+  color: #ffffff;
+}
+
+#content .ready a {
+    z-index: 2;
+    color: #ff0000;
+}
+
+.countdown {
+  color:#ffffff;
+  text-align:center;
+}
+
+.countdown h1 {
+  font-size: 800%;
+}
+
+.countdown h2 {
+  font-size: 100%;
+}
+
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+footer .logo img {
+  height: 2rem;
+}
